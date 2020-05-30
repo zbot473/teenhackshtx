@@ -1,0 +1,19 @@
+{
+    "name": "teenhackshtx",
+    "description": "Edgemont Submission",
+    "authors": "Edgemont Programming Club",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "three": "^0.117.1"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^6.0.1",
+        "html-webpack-plugin": "^4.3.0",
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.1.14",
+        "webpack-build-notifier": "^2.0.1"
+    }
+}
