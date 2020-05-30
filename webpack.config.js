@@ -28,7 +28,6 @@ module.exports = {
             }
         ]
     },
-    watch: true,
     optimization: {
         minimize: true,
         minimizer: [
