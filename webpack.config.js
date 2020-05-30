@@ -12,14 +12,15 @@ module.exports = {
         path: `${__dirname}/client`
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: "src/base.html" }),
+        new HtmlWebpackPlugin({ template: "src/index.html" }),
         new CopyPlugin({patterns:[{ from: "src/static/", to: "" }]}),
         new WebpackBuildNotifierPlugin({
             title: "AR",
             suppressWarning: true,
-            suppressCompileStart: false
+            suppressCompileStart: true
         })
     ],
+    watch:true,
     module: {
         rules: [
             {
