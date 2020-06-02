@@ -1,4 +1,4 @@
-# Edgemont TeenHacks Submission
+# TeenHacks Submission
 
 ## Steps:
 
