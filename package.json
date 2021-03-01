@@ -10,7 +10,7 @@
     "dependencies": {
         "express": "^4.17.1",
         "node-fetch": "^2.6.1",
-        "three": "^0.117.1",
+        "three": "^0.125.0",
         "three-mesh-ui": "^3.2.1"
     },
     "devDependencies": {
